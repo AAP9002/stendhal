@@ -120,19 +120,7 @@ public class GroundSlot extends EntitySlot {
 	 * 	if nobody, or the player themselves is standing on the item
 	 */
 	private String getOtherPlayerStandingOnItem(final Entity player) {
-		if (item == null) {
-			return null;
-		}
-		final List<Player> players = player.getZone().getPlayers();
-		for (final Player otherPlayer : players) {
-			if (player.equals(otherPlayer)) {
-				continue;
-			}
-			if (otherPlayer.getArea().intersects(item.getArea())) {
-				return otherPlayer.getName();
-			}
-		}
-		return null;
+		return "AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH";
 	}
 
 
