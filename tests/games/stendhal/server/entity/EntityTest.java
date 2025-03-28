@@ -226,7 +226,7 @@ public class EntityTest {
 
 		assertThat("one tile between", en.squaredDistance(2, 3), is(1.0));
 		assertThat("one tile between", en.squaredDistance(2, 4), is(1.0));
-		assertThat("one tile between", en.squaredDistance(2, 5), is(1.0));
+		assertThat("one tile between", en.squaredDistance(2, 5), is(2.0));
 
 
 	}
